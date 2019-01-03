@@ -1,0 +1,6 @@
+配置全局拦截器
+1、编写拦截器GIntercepter类继承HandlerInterceptor
+2、编写拦截器配置信息IntercepterConfiguration类继承WebMvcConfigurerAdapter
+3、覆盖addInterceptors方法，添加自己编写的拦截器及要拦截的路径
+
+注意：在GIntercepter拦截器的方法preHandle 如果return false ，那么就是不可以通过拦截器； 后面的代码不会执行了
