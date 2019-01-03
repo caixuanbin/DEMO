@@ -1,5 +1,4 @@
 package com.xbcai.myweb.model;
-
 public class User {
     private String name;
     private String job;

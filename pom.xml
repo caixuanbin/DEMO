@@ -7,6 +7,8 @@
     <groupId>com.xbcai</groupId>
     <artifactId>MyTestProject</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+<modules>
+    <module>myweb</module>
+</modules>
 
 </project>

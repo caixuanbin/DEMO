@@ -72,4 +72,5 @@ public class MyIndexController {
     public String otherException(){
         throw  new RuntimeException();
     }
+
 }
