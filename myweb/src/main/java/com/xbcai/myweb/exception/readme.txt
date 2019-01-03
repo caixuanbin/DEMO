@@ -29,4 +29,4 @@
 4、在controller层如果抛出了对应的异常，就会被全局异常类所捕获，将异常信息显示在一个页面上
 
 注：这里是将异常信息统一显示在templates\error 下面的global_error.html,可以根据实际情况而定，也可以将异常信息以json
-形式返回到调用页面，springboot默认页面是放在resources/templates下面的
+形式返回到调用页面，springboot默认页面是放在resources/templates下面的,并且需要在项目中引入spring-boot-starter-thymeleaf依赖才能找到页面
