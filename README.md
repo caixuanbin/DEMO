@@ -5,5 +5,6 @@
 1、新增了过滤器、拦截器、自定义注解实现日志记录、全局异常拦截，spring data jpa操作数据库具体可以查看项目中的具体模块
 
 20190113
+
 1、实现一个springboot+springsecurity+springjpa 的登录验证，具体说明查看com.xbcai.myweb.security下面的readme.txt文件说明
 
