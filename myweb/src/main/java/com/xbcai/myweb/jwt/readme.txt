@@ -1,4 +1,4 @@
-场景：使用springboot+springsecurity+jwt+springjpa 实现了一个Rest API 接口的权限验证，
+场景：使用springboot+springsecurity+jwt+springjpa 实现了一个restful api 接口的权限验证，
       也就是调用接口之前，先登录验证，后台返回token，以后每次调用接口都必须将该token放在请求头部带过来，如果验证通过，调用接口成功；
 1、在pom.xml文件里引入springsecurity、jwt的jar包
         <dependency>
