@@ -8,3 +8,9 @@
 
 1、实现一个springboot+springsecurity+springjpa 的登录验证，具体说明查看com.xbcai.myweb.security下面的readme.txt文件说明
 
+20190118
+
+1、使用springboot+springsecurity+jwt+springjpa 实现了一个restful api 接口的权限验证，具体说明查看com/xbcai/myweb/jwt/readme.txt
+
+
+
