@@ -12,5 +12,9 @@
 
 1、使用springboot+springsecurity+jwt+springjpa 实现了一个restful api 接口的权限验证，具体说明查看com/xbcai/myweb/jwt/readme.txt
 
+20190215
+
+1、使用logback进行日志的记录，记录的日志级别可以自定义，info日志及error日志分开存储，每天一个文件，具体说明查看com/xbcai/myweb/log/readme.txt
+
 
 
