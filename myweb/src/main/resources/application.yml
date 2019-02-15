@@ -1,3 +1,3 @@
-logging:
-  pattern:
-    dateformat:
+spring:
+  profiles:
+    active: dev
