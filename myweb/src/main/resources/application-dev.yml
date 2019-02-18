@@ -9,7 +9,16 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+  dubbox:
+    application: bootproper
+    protocol: rest
+    urlMappings: dd/aa
 
 log:
   path: D:/TEST/log/dev
   level: DEBUG
+xbcai-config:
+  host: 192.168.0.1
+  port: 8888
+  enabled: true
+

@@ -6,3 +6,4 @@
 5、spring data jpa的使用请看com/xbcai/myweb/jpa/readme.txt的说明；
 6、使用springboot+springsecurity+jwt+springjpa 实现了一个restful api 接口的权限验证，具体说明查看com/xbcai/myweb/jwt/readme.txt
 7、logback日志集成，具体使用请看com/xbcai/myweb/log/readme.txt
+8、采用springboot自动装配策略自定义starter jar包供其他项目依赖使用，具体使用请查看com/xbcai/myweb/customautoconfiguration/readme.txt

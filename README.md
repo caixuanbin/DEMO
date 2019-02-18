@@ -16,5 +16,9 @@
 
 1、使用logback进行日志的记录，记录的日志级别可以自定义，info日志及error日志分开存储，每天一个文件，具体说明查看com/xbcai/myweb/log/readme.txt
 
+20190218
+
+1、采用springboot自动装配策略自定义starter jar包供其他项目依赖使用，具体使用请查看com/xbcai/myweb/customautoconfiguration/readme.txt
+
 
 
