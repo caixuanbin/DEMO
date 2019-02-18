@@ -20,5 +20,7 @@
 
 1、采用springboot自动装配策略自定义starter jar包供其他项目依赖使用，具体使用请查看com/xbcai/myweb/customautoconfiguration/readme.txt
 
+2、创建全局监听器，具体使用请查看com/xbcai/myweb/listener/readme.txt
+
 
 
