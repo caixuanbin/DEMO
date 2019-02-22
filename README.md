@@ -22,5 +22,9 @@
 
 2、创建全局监听器，具体使用请查看com/xbcai/myweb/listener/readme.txt
 
+20190222
+
+1、自定义内嵌tomcat配置信息，具体使用请查看com/xbcai/myweb/server/readme.txt
+
 
 

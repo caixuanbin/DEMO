@@ -7,3 +7,5 @@
 6、使用springboot+springsecurity+jwt+springjpa 实现了一个restful api 接口的权限验证，具体说明查看com/xbcai/myweb/jwt/readme.txt
 7、logback日志集成，具体使用请看com/xbcai/myweb/log/readme.txt
 8、采用springboot自动装配策略自定义starter jar包供其他项目依赖使用，具体使用请查看com/xbcai/myweb/customautoconfiguration/readme.txt
+9、创建全局监听器，具体使用请查看com/xbcai/myweb/listener/readme.txt
+10、自定义内嵌tomcat配置信息，具体使用请查看com/xbcai/myweb/server/readme.txt
