@@ -1,0 +1,19 @@
+一、JsonUtils工具类
+  1、在pom.xml文件里面引入spring-boot-starter-web jar,里面会默认引入Jackson包
+  2、如果单独引入的话就需要引入Jackson相关依赖
+      <dependency>
+       <groupId>com.fasterxml.jackson.core</groupId>
+       <artifactId>jackson-core</artifactId>
+       <version>2.9.2</version>
+      </dependency>
+      <dependency>
+       <groupId>com.fasterxml.jackson.core</groupId>
+       <artifactId>jackson-databind</artifactId>
+       <version>2.9.2</version>
+      </dependency>
+      <dependency>
+       <groupId>com.fasterxml.jackson.core</groupId>
+       <artifactId>jackson-annotations</artifactId>
+       <version>2.9.2</version>
+      </dependency>
+  3、具体使用查看com.xbcai.myweb.utils.JsonUtils工具类的用法
