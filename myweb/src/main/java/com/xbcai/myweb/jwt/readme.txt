@@ -21,5 +21,6 @@ org.springframework.security.core.userdetails.User对象返回，这里用到的
 9、创建类JwtController进行自定义登录检验的controller层，登录成功，将生成token放再头部返回给客户端，客户端下次调用其他接口必须带上token值来进行检验
    （为了方便，这里也定义了要给用户注册的接口，让用户先注册一个账号，然后以该账号登录获取token）
 10、创建类JwtWebSecurityConfig继承WebSecurityConfigurerAdapter配置权限验证的相关规则，在类上面开启@EnableWebSecurity验证；
+11、在启动类里面开启@ServletComponentScan注解
 
 
